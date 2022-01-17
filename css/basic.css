@@ -1,0 +1,79 @@
+/* =================================
+fonts
+==================================== */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:ital@0;1&family=Roboto&display=swap");
+
+/* ===========================================
+all elements property
+ ==============================================*/
+
+:root {
+  /* primary */
+  --background-black: #0f1112;
+  /* font */
+  --all-fonts: "Playfair Display", serif, "Poppins", "Roboto", sans-serif;
+
+  /* bottom  */
+  --btn-color: 7f5af0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background-black);
+  font-family: var(--all-fonts);
+}
+body {
+  margin: 50px;
+}
+/* button */
+button {
+  color: white;
+}
+
+/* logo */
+
+.logo {
+  color: white;
+  margin-top: 7px;
+}
+/* shihab image  */
+.shihab-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  border: 2px solid #ff8906;
+  padding: 1px;
+}
+.logo-section {
+  display: flex;
+  gap: 30px;
+}
+/* nav */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* btn */
+
+.btn-two {
+  background-color: #7f5af0;
+  border: 2px solid #7f5af0;
+  padding: 5px 20px;
+  border-radius: 3px;
+}
+.btn-one {
+  background-color: #ff6e6c;
+  border: 2px solid #7f5af0;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+}
